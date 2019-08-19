@@ -1,0 +1,72 @@
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.firstbox {
+  height: 200px;
+  width: auto;
+  transform: translateY(-5px);
+}
+.secondbox {
+  display: inline-block;
+  height: 200px;
+  width: auto;
+}
+.box {
+  width: auto;
+  padding: 30px;
+  text-align: center;
+}
+.courses {
+  transform: translateY(-5px);
+}
+.articles {
+  height: 500px;
+}
+.skills {
+  height: 500px;
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  .articles {
+    height: 250px;
+  }
+  .skills {
+    height: 250px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .box {
+    display: flex;
+    text-align: center;
+  }
+  .firstbox {
+    transform: translateX(100%);
+  }
+  .secondbox {
+    transform: translateX(150%);
+  }
+}
+/* 
+// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
